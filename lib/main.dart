@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:doit/customwidget.dart';
 import 'TextControl.dart';
+import 'customwidget.dart';
+import 'SlidetCustom.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -22,7 +24,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: const Text('Text')),
-        body:TextState()
+        body:CustomSlide()
       ),
     );
   }
